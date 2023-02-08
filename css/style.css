@@ -20,18 +20,14 @@ body {
     min-height: 80vh;
     display: grid;
     place-content: center;
-    width: 100%;
+    
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
 
 }
 
 
-.team_a1 {
-    display: grid;
-    place-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-   
 
-}
 
 #image {
     width: 200px;
@@ -39,14 +35,6 @@ body {
     object-fit: cover;
     border-radius: 10%;
 }
-
-#p_page {
-    font-size: small;
-    display: grid;
-    place-self: center;
-}
-
-
 
 
 
@@ -59,4 +47,11 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     place-items: center;
     background-color: aqua;
+}
+
+.products {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   
 }
