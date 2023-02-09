@@ -15,6 +15,7 @@
 body {
     display: grid;
     min-height: 80vh;
+   
 }
 
 .page_main {
@@ -22,6 +23,7 @@ body {
     display: grid;
     place-content: center;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: honeydew;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 3%;
@@ -125,6 +127,7 @@ footer {
     margin-right: 10%;
     margin-bottom: 3%;
     margin-top: 3%;
+    background-color: sandybrown;
 
 }
 
